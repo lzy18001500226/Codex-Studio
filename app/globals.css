@@ -105,6 +105,8 @@ textarea {
   border-radius: 18px;
   background: linear-gradient(180deg, #f8fffb, #ecfdf5);
   border: 1px solid #bbf7d0;
+  display: grid;
+  gap: 10px;
 }
 
 .workspace-chip strong,
@@ -112,6 +114,44 @@ textarea {
 .card h2,
 .card h3 {
   letter-spacing: 0.01em;
+}
+
+.workspace-chip-label {
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: #166534;
+}
+
+.workspace-chip-path {
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(134, 239, 172, 0.65);
+  color: #1f2937;
+  font-family: "Consolas", "SFMono-Regular", monospace;
+  font-size: 0.83rem;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.workspace-chip-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.workspace-chip-meta-label {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(20, 83, 45, 0.1);
+  color: #166534;
+  font-weight: 700;
 }
 
 .content {

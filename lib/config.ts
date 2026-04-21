@@ -1,6 +1,6 @@
 import path from "node:path";
 
-export const APP_NAME = "Codex Local Agent Lab";
+export const APP_NAME = "Codex Studio";
 
 export const DEFAULT_WORKSPACE_ROOT = path.resolve(
   process.cwd(),

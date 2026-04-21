@@ -34,9 +34,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             </nav>
 
             <div className="workspace-chip">
-              <strong>当前工作区</strong>
-              <p className="muted" style={{ marginTop: 8 }}>{settings.workspaceRoot}</p>
-              <p className="muted" style={{ marginTop: 8 }}>模式：{settings.mode === "mock" ? "模拟代理" : "真实代理占位"}</p>
+              <div className="workspace-chip-label">当前工作区</div>
+              <div className="workspace-chip-path">{settings.workspaceRoot}</div>
+              <div className="workspace-chip-meta">
+                <span className="workspace-chip-meta-label">模式</span>
+                <span>{settings.mode === "mock" ? "模拟代理" : "真实代理占位"}</span>
+              </div>
             </div>
           </aside>
 

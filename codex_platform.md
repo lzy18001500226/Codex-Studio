@@ -2,7 +2,7 @@
 
 ## 1. 项目名称
 
-Codex Local Agent Lab（基于 OpenAI Codex 的本地编码代理实验平台）
+Codex Studio（基于 OpenAI Codex 的本地编码代理实验平台）
 
 ---
 
@@ -840,7 +840,7 @@ step_type 建议值：
 ## 17. 目录结构建议
 
 ```text
-codex-local-agent-lab/
+codex-studio/
   app/ 或 src/
     pages/
     components/
@@ -859,7 +859,7 @@ codex-local-agent-lab/
 如果是前后端分离，也可以：
 
 ```text
-codex-local-agent-lab/
+codex-studio/
   frontend/
   backend/
   docs/

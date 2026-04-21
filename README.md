@@ -1,4 +1,4 @@
-# Codex Local Agent Lab
+# Codex Studio
 
 一个基于 Next.js + TypeScript + SQLite 的本地编码代理实验平台，用于教学展示本地代理任务、审批、文件浏览、命令执行和测试闭环。
 
@@ -44,7 +44,7 @@ npm run dev
 4. 打开浏览器
 
 ```text
-http://localhost:3000
+http://127.0.0.1:3100
 ```
 
 ## 环境变量
